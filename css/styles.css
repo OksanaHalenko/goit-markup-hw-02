@@ -1,0 +1,31 @@
+body {
+    font-family: "roboto", sans-serif;
+    color: #434455;
+}
+h1, h2, h3 {
+    color: #2E2F42;
+}
+a {
+text-decoration: none;
+}
+.logo {
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 1.166;
+    color: #2E2F42;
+}
+.web {
+    color: #4D5AE5;
+}
+.navi {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+.adress {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
