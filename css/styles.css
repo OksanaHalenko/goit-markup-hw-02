@@ -93,7 +93,7 @@ ul {
   letter-spacing: 0.32px;
 }
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title {
   text-align: center;
@@ -103,6 +103,9 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.list {
+  background-color: #fff;
 }
 .team-titles {
   text-align: center;
