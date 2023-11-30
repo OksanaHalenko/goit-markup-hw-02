@@ -1,6 +1,7 @@
 body {
   font-family: 'roboto', sans-serif;
   color: #434455;
+  background-color: #fff;
 }
 h1,
 h2,
@@ -15,29 +16,37 @@ ul {
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.166;
-  color: #2e2f42;
-}
-.web {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
+}
+.studio {
+  color: #2e2f42;
 }
 .navi {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .navi:hover,
 .navi:focus {
   color: #404bbf;
+}
+.adr {
+  font-style: normal;
 }
 .adress {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: currentColor;
+  letter-spacing: 0.02em;
 }
 .adress:hover,
 .adress:focus {
@@ -56,6 +65,7 @@ ul {
   letter-spacing: 1.12px;
 }
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   background: #4d5ae5;
   color: #fff;
   font-size: 16px;
@@ -64,8 +74,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .abaut-title {
@@ -81,7 +93,7 @@ ul {
   letter-spacing: 0.32px;
 }
 .team {
-  background: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-title {
   text-align: center;
@@ -106,6 +118,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.portf {
+  background-color: #fff;
+}
 .portfolio {
   text-align: center;
   font-size: 36px;
@@ -124,7 +139,7 @@ ul {
 }
 .portfolio-text {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .footer {
