@@ -1,31 +1,69 @@
 body {
-    font-family: "roboto", sans-serif;
-    color: #434455;
+  font-family: 'roboto', sans-serif;
+  color: #434455;
 }
-h1, h2, h3 {
-    color: #2E2F42;
+h1,
+h2,
+h3 {
+  color: #2e2f42;
 }
 a {
-text-decoration: none;
+  text-decoration: none;
 }
+ul {
+  list-style-type: none;
+}
+
 .logo {
-    font-family: "Raleway";
-    font-size: 18px;
-    line-height: 1.166;
-    color: #2E2F42;
+  font-family: 'Raleway';
+  font-size: 18px;
+  line-height: 1.166;
+  color: #2e2f42;
 }
 .web {
-    color: #4D5AE5;
+  color: #4d5ae5;
 }
 .navi {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.navi:hover,
+.navi:focus {
+  color: #404bbf;
 }
 .adress {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: currentColor;
+}
+.adress:hover,
+.adress:focus {
+  color: #404bbf;
+}
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.hero-button {
+  background: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+.hero-button:hover {
+  background-color: #404bbf;
 }
